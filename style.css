@@ -1,0 +1,64 @@
+
+* {
+    background-color: rgb(232, 234, 228);
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+
+#field {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 1000px;
+    height: 800px;
+    background-color: black;
+    border: 30px outset rgb(168, 166, 143) ;
+}
+
+#spacecraft {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    left: 0;
+    bottom: 0;
+    background-color: blueviolet;
+    caret-color: transparent;
+}
+
+.asteroids {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    caret-color: transparent;
+}
+
